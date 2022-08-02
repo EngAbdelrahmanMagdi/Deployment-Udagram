@@ -10,7 +10,7 @@ Hosing the postgres Database is in RDS
 #
 ### S3 Bucket
 Hosting frontend is in S3 Bucket
-
+`http://abdelrahman192-udagram.s3-website-us-east-1.amazonaws.com`
  # 
 ### Elastic Beanstalk
 
