@@ -5,6 +5,7 @@
 #
 ### RDS Postgres
 Hosing the postgres Database is in RDS
+`postgresql://postgres:admin1234@database-1.cdawqetzrawt.us-east-1.rds.amazonaws.com:5432/postgres`
 
 #
 ### S3 Bucket
