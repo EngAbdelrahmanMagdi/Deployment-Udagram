@@ -29,6 +29,11 @@ jobs:
           name: Server-Side Build
           command: |
             npm run api:build
+# Installing AWS-EB-CLI
+      - run:
+          name: Installing AWS EB
+          command: |
+            npm run api:aws-eb
 # deploy Server-Side
       - run:
           name: Server-Side Deploy
