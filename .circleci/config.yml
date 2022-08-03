@@ -23,22 +23,17 @@ jobs:
       - run:
           name: Server-Side Install
           command: |
-            npm run backend:install
+            npm run api:install
 # build Server-Side
       - run:
           name: Server-Side Build
           command: |
-            npm run backend:build
-# Installing AWS-EB-CLI
-      - run:
-          name: Installing AWS EB
-          command: |
-            npm run backend:aws-eb
+            npm run api:build
 # deploy Server-Side
       - run:
           name: Server-Side Deploy
           command: |
-            npm run backend:deploy
+            npm run api:deploy
 # run Client-Side jobs
 
 # install dependencies of Client-Side
