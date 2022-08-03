@@ -56,3 +56,11 @@ jobs:
           name: Client-Side Deploy
           command: |
             npm run frontend:deploy
+workflows:
+  udagram:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only:
+                - main
