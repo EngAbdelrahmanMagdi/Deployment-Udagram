@@ -15,3 +15,4 @@ Hosting frontend is in S3 Bucket
 ### Elastic Beanstalk
 
 Hosing Server side or API or Backend in Elastic Beanstalk
+`http://udagram-api-dev.eba-5pfna4kw.us-east-1.elasticbeanstalk.com/`
